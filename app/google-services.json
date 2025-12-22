@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538632900550",
+    "project_id": "icefishtracker",
+    "storage_bucket": "icefishtracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538632900550:android:d21f2611da5f539cf26cc7",
+        "android_client_info": {
+          "package_name": "com.icefishi.trackesof"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRlkieDUsut9hVL1RwclRjUlY7jBYMbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
