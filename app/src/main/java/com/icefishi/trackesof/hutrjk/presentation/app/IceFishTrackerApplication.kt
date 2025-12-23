@@ -110,11 +110,9 @@ class IceFishTrackerApplication : Application() {
                                 val resp = response.body()
                                 Log.d(ICE_FISH_TRACKER_MAIN_TAG, "After 5s: $resp")
                                 if (resp?.get("af_status") == "Organic" || resp?.get("af_status") == null) {
-                                    iceFishTrackerResume(IceFishTrackerAppsFlyerState.IceFishTrackerError)
+                                    iceFishTrackerResume(IceFishTrackerAppsFlyerState.IceFishTrackerSuccess(p0))
                                 } else {
-                                    iceFishTrackerResume(
-                                        IceFishTrackerAppsFlyerState.IceFishTrackerSuccess(resp)
-                                    )
+                                    iceFishTrackerResume(IceFishTrackerAppsFlyerState.IceFishTrackerSuccess(resp))
                                 }
                             } catch (d: Exception) {
                                 Log.d(ICE_FISH_TRACKER_MAIN_TAG, "Error: ${d.message}")
